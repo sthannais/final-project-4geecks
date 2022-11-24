@@ -1,0 +1,39 @@
+.about {
+    background-color: #e9eff7;
+    width: 94%;
+    margin: 2% 3%;
+    border: 2px solid #282936;
+    border-radius: 10px;
+}
+
+.abouttitle h2 {
+    height: 9vh;
+    position: relative;
+    padding: 15px;
+    padding-left: 28px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color:#282936;
+}
+
+.aboutcard {
+    background-color: #D4D9E0 !important;
+    color: #282936;
+    width: 60% !important;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    border-radius: 1.25rem !important;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+}
+
+.aboutcardtext {
+    text-align: justify;
+}
+
+.about img {
+    transform: scaleX(-1);
+    border-radius: 1.25rem !important;
+    padding: 10px 0;
+}

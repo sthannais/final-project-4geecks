@@ -1,0 +1,79 @@
+.notfound {
+    background-color: #e9eff7;
+    width: 94%;
+    margin: 2% 3%;
+    border: 2px solid #282936;
+    border-radius: 10px;
+}
+
+.notfoundtitle h2 {
+    height: 9vh;
+    position: relative;
+    padding: 15px;
+    padding-left: 28px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #282936;
+    margin-bottom: 4rem;
+}
+
+
+
+.notfoundcard {
+    background-color: #D4D9E0 !important;
+    color: #282936;
+    width: 50rem !important;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    border-radius: 1.25rem !important;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.notfoundcardtext {
+    font-size: 20px;
+    text-align: center;
+    color: #282936;
+    margin: 20px;
+}
+
+.btn-404 {
+    padding: 15px 25px;
+    margin: 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px #28293645;
+    box-shadow: 4px 8px 19px -3px #28293645;
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+.btn-404::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #282936;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px #28293645;
+    box-shadow: 4px 8px 19px -3px #28293645;
+    transition: all 250ms
+}
+
+.btn-404:hover {
+    color: #e8e8e8;
+}
+
+.btn-404:hover::before {
+    width: 100%;
+}

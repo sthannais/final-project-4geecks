@@ -1,0 +1,17 @@
+.sidebar {
+    height: 80vh;
+}
+
+.sidebar-links a {
+    color: white;
+}
+
+.sidebar-links a.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.sidebar-links a:hover {
+    background-color: white;
+    color: black;
+}

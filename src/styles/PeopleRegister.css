@@ -1,0 +1,22 @@
+.contenedor2 {
+  width: 50%;
+  height: 70%;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  background-color: white;
+  position: relative;
+  left: 27%;
+  bottom: 39px;
+}
+
+.PeopleRegisterBox {
+  margin-top: 2%;
+  margin-bottom: 90px;
+}
+
+.alerta {
+  width: 40%;
+  margin-top: 10px;
+  position: relative;
+  left: 30%;
+}

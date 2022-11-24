@@ -1,0 +1,29 @@
+body {
+  background-color: #1e4a5f;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.active {
+  color: #282936;
+}
+
+.imgLogo {
+  width: 168px;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  font-family: "Lora", serif;
+}
+.footer p {
+  color: #0d0f0c;
+  font-weight: bold;
+}
